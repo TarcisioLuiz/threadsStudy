@@ -4,7 +4,44 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="7feb674f-5fb2-4497-8413-28221ed4d67c" name="Changes" comment="" />
+    <list default="true" id="7feb674f-5fb2-4497-8413-28221ed4d67c" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/jarRepositories.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/Sincronizacao/Banheiro.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/Sincronizacao/Principal.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/Sincronizacao/TarefaNumero1.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/Sincronizacao/TarefaNumero2.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/buscaTextual/Principal.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/buscaTextual/TarefaBuscaTextual.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/calculadora/AcaoBotao.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/calculadora/TarefaMultiplicacao.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/calculadora/TelaCalculador.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/exercicio/ImprimirNumeros.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/exercicio/ImprimirString.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/assinaturas1.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/assinaturas2.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/autores.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/Sincronizacao/Banheiro.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/Sincronizacao/Principal.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/Sincronizacao/TarefaNumero1.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/Sincronizacao/TarefaNumero2.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/assinaturas1.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/assinaturas2.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/autores.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/buscaTextual/Principal.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/buscaTextual/TarefaBuscaTextual.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/calculadora/AcaoBotao.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/calculadora/TarefaMultiplicacao.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/calculadora/TelaCalculador.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/exercicio/ImprimirNumeros.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/exercicio/ImprimirString.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/exercicio/PrincipalOrdemDeExecucao.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -152,7 +189,7 @@
       <option name="presentableId" value="Default" />
       <updated>1694550463204</updated>
       <workItem from="1694550465102" duration="8265000" />
-      <workItem from="1694567226009" duration="1433000" />
+      <workItem from="1694567226009" duration="1751000" />
     </task>
     <servers />
   </component>
