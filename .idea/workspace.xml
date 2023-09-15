@@ -5,42 +5,18 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="7feb674f-5fb2-4497-8413-28221ed4d67c" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/jarRepositories.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/Sincronizacao/Banheiro.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/Sincronizacao/Principal.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/Sincronizacao/TarefaNumero1.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/Sincronizacao/TarefaNumero2.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/buscaTextual/Principal.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/buscaTextual/TarefaBuscaTextual.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/calculadora/AcaoBotao.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/calculadora/TarefaMultiplicacao.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/calculadora/TelaCalculador.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/exercicio/ImprimirNumeros.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/exercicio/ImprimirString.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/assinaturas1.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/assinaturas2.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/autores.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/Sincronizacao/Banheiro.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/Sincronizacao/Principal.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/Sincronizacao/TarefaNumero1.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/Sincronizacao/TarefaNumero2.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/assinaturas1.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/assinaturas2.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/autores.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/buscaTextual/Principal.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/buscaTextual/TarefaBuscaTextual.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/calculadora/AcaoBotao.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/calculadora/TarefaMultiplicacao.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/calculadora/TelaCalculador.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/exercicio/ImprimirNumeros.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/exercicio/ImprimirString.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/exercicio/PrincipalOrdemDeExecucao.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/colecoesThreadSafe/Lista.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/colecoesThreadSafe/Principal.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/colecoesThreadSafe/TarefaAdicionarElemento.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/espereNotifique/Banheiro.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/espereNotifique/Principal.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/espereNotifique/TarefaNumero1.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/espereNotifique/TarefaNumero2.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/assinaturas1.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/assinaturas2.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/autores.txt" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -77,7 +53,7 @@
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/main/java/espereNotifique" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
     <property name="node.js.selected.package.eslint" value="(autodetect)" />
@@ -97,7 +73,7 @@
       <recent name="C:\Personal Workspace\CalculadorV1\src" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.Principal (1)">
+  <component name="RunManager" selected="Application.Principal (2)">
     <configuration name="ImprimirString" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="exercicio.ImprimirString" />
       <module name="ThreadsStudy" />
@@ -117,6 +93,19 @@
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="Sincronizacao.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Principal (2)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="colecoesThreadSafe.Principal" />
+      <module name="ThreadsStudy" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="colecoesThreadSafe.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -150,33 +139,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="TelaCalculador" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="calculadora.TelaCalculador" />
-      <module name="ThreadsStudy" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration default="true" type="JetRunConfigurationType">
-      <module name="ThreadsStudy" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration default="true" type="KotlinStandaloneScriptRunConfigurationType">
-      <module name="ThreadsStudy" />
-      <option name="filePath" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Principal (2)" />
         <item itemvalue="Application.Principal (1)" />
         <item itemvalue="Application.PrincipalOrdemDeExecucao" />
         <item itemvalue="Application.Principal" />
         <item itemvalue="Application.ImprimirString" />
-        <item itemvalue="Application.TelaCalculador" />
       </list>
     </recent_temporary>
   </component>
@@ -189,7 +158,8 @@
       <option name="presentableId" value="Default" />
       <updated>1694550463204</updated>
       <workItem from="1694550465102" duration="8265000" />
-      <workItem from="1694567226009" duration="1751000" />
+      <workItem from="1694567226009" duration="3016000" />
+      <workItem from="1694813749576" duration="3528000" />
     </task>
     <servers />
   </component>
