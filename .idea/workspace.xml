@@ -5,17 +5,14 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="7feb674f-5fb2-4497-8413-28221ed4d67c" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/colecoesThreadSafe/TarefaImprimir.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/espereNotifique/Banheiro.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/espereNotifique/Principal.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/espereNotifique/TarefaLimpeza.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/espereNotifique/TarefaNumero1.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/espereNotifique/TarefaNumero2.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/deadlock/GerenciadorDeTransacao.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/deadlock/PoolDeConexao.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/deadlock/PrincipalBanco.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/deadlock/TarefaAcessoBanco.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/deadlock/TarefaAcessoBancoProcedimento.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/colecoesThreadSafe/Lista.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/colecoesThreadSafe/Lista.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/colecoesThreadSafe/Principal.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/colecoesThreadSafe/Principal.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/colecoesThreadSafe/TarefaAdicionarElemento.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/colecoesThreadSafe/TarefaAdicionarElemento.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/colecoesThreadSafe/TarefaImprimir.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/colecoesThreadSafe/TarefaImprimir.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -70,6 +67,7 @@
   </component>
   <component name="RecentsManager">
     <key name="CreateClassDialog.RecentsKey">
+      <recent name="deadlock" />
       <recent name="colecoesThreadSafe" />
       <recent name="buscaTextual" />
     </key>
@@ -83,7 +81,7 @@
       <recent name="C:\Personal Workspace\CalculadorV1\src" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.Principal (2)">
+  <component name="RunManager" selected="Application.PrincipalBanco">
     <configuration name="Principal (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Sincronizacao.Principal" />
       <module name="ThreadsStudy" />
@@ -123,12 +121,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Principal" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="buscaTextual.Principal" />
+    <configuration name="PrincipalBanco" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="deadlock.PrincipalBanco" />
       <module name="ThreadsStudy" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="buscaTextual.*" />
+          <option name="PATTERN" value="deadlock.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -151,11 +149,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.PrincipalBanco" />
         <item itemvalue="Application.Principal (2)" />
         <item itemvalue="Application.Principal (3)" />
         <item itemvalue="Application.Principal (1)" />
         <item itemvalue="Application.PrincipalOrdemDeExecucao" />
-        <item itemvalue="Application.Principal" />
       </list>
     </recent_temporary>
   </component>
@@ -170,7 +168,7 @@
       <workItem from="1694550465102" duration="8265000" />
       <workItem from="1694567226009" duration="3016000" />
       <workItem from="1694813749576" duration="6012000" />
-      <workItem from="1694983608522" duration="2274000" />
+      <workItem from="1694983608522" duration="4741000" />
     </task>
     <servers />
   </component>

@@ -28,4 +28,8 @@ public class Lista {
     public String pegaElemento(int posicao) {
         return this.elementos[posicao];
     }
+
+    public boolean estaCheia() {
+        return this.indice == this.tamanho();
+    }
 }
