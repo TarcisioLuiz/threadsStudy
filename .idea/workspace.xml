@@ -5,14 +5,34 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="7feb674f-5fb2-4497-8413-28221ed4d67c" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/deadlock/GerenciadorDeTransacao.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/deadlock/PoolDeConexao.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/deadlock/PrincipalBanco.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/deadlock/TarefaAcessoBanco.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/deadlock/TarefaAcessoBancoProcedimento.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/threadsII/cliente/ClienteTarefas.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/threadsII/servidor/ServidorTarefas.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/colecoesThreadSafe/Lista.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/colecoesThreadSafe/Lista.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/colecoesThreadSafe/TarefaImprimir.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/colecoesThreadSafe/TarefaImprimir.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Sincronizacao/Banheiro.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/threadsI/Sincronizacao/Banheiro.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Sincronizacao/Principal.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/threadsI/Sincronizacao/Principal.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Sincronizacao/TarefaNumero1.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/threadsI/Sincronizacao/TarefaNumero1.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Sincronizacao/TarefaNumero2.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/threadsI/Sincronizacao/TarefaNumero2.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/buscaTextual/Principal.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/threadsI/buscaTextual/Principal.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/buscaTextual/TarefaBuscaTextual.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/threadsI/buscaTextual/TarefaBuscaTextual.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/calculadora/AcaoBotao.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/threadsI/calculadora/AcaoBotao.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/calculadora/TarefaMultiplicacao.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/threadsI/calculadora/TarefaMultiplicacao.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/calculadora/TelaCalculador.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/threadsI/calculadora/TelaCalculador.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/colecoesThreadSafe/Lista.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/threadsI/colecoesThreadSafe/Lista.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/colecoesThreadSafe/Principal.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/threadsI/colecoesThreadSafe/Principal.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/colecoesThreadSafe/TarefaAdicionarElemento.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/threadsI/colecoesThreadSafe/TarefaAdicionarElemento.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/colecoesThreadSafe/TarefaImprimir.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/threadsI/colecoesThreadSafe/TarefaImprimir.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/deadlock/GerenciadorDeTransacao.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/threadsI/deadlock/GerenciadorDeTransacao.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/deadlock/PoolDeConexao.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/threadsI/deadlock/PoolDeConexao.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/deadlock/PrincipalBanco.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/threadsI/deadlock/PrincipalBanco.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/deadlock/TarefaAcessoBanco.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/threadsI/deadlock/TarefaAcessoBanco.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/deadlock/TarefaAcessoBancoProcedimento.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/threadsI/deadlock/TarefaAcessoBancoProcedimento.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/espereNotifique/Banheiro.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/threadsI/espereNotifique/Banheiro.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/espereNotifique/Principal.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/threadsI/espereNotifique/Principal.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/espereNotifique/TarefaLimpeza.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/threadsI/espereNotifique/TarefaLimpeza.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/espereNotifique/TarefaNumero1.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/threadsI/espereNotifique/TarefaNumero1.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/espereNotifique/TarefaNumero2.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/threadsI/espereNotifique/TarefaNumero2.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/exercicio/ImprimirNumeros.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/threadsI/exercicio/ImprimirNumeros.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/exercicio/ImprimirString.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/threadsI/exercicio/ImprimirString.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -81,13 +101,13 @@
       <recent name="C:\Personal Workspace\CalculadorV1\src" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.PrincipalBanco">
-    <configuration name="Principal (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Sincronizacao.Principal" />
+  <component name="RunManager" selected="Application.ClienteTarefas">
+    <configuration name="ClienteTarefas" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="threadsII.cliente.ClienteTarefas" />
       <module name="ThreadsStudy" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Sincronizacao.*" />
+          <option name="PATTERN" value="threadsII.cliente.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -134,12 +154,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="PrincipalOrdemDeExecucao" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="exercicio.PrincipalOrdemDeExecucao" />
+    <configuration name="ServidorTarefas" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="threadsII.servidor.ServidorTarefas" />
       <module name="ThreadsStudy" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="exercicio.*" />
+          <option name="PATTERN" value="threadsII.servidor.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -149,11 +169,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.ClienteTarefas" />
+        <item itemvalue="Application.ServidorTarefas" />
         <item itemvalue="Application.PrincipalBanco" />
         <item itemvalue="Application.Principal (2)" />
         <item itemvalue="Application.Principal (3)" />
-        <item itemvalue="Application.Principal (1)" />
-        <item itemvalue="Application.PrincipalOrdemDeExecucao" />
       </list>
     </recent_temporary>
   </component>
@@ -168,7 +188,8 @@
       <workItem from="1694550465102" duration="8265000" />
       <workItem from="1694567226009" duration="3016000" />
       <workItem from="1694813749576" duration="6012000" />
-      <workItem from="1694983608522" duration="4741000" />
+      <workItem from="1694983608522" duration="5914000" />
+      <workItem from="1695039122347" duration="46000" />
     </task>
     <servers />
   </component>
