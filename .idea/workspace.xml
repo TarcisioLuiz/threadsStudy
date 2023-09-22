@@ -6,33 +6,9 @@
   <component name="ChangeListManager">
     <list default="true" id="7feb674f-5fb2-4497-8413-28221ed4d67c" name="Changes" comment="">
       <change afterPath="$PROJECT_DIR$/src/main/java/threadsII/cliente/ClienteTarefas.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/threadsII/servidor/DistribuirTarefas.java" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/src/main/java/threadsII/servidor/ServidorTarefas.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Sincronizacao/Banheiro.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/threadsI/Sincronizacao/Banheiro.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Sincronizacao/Principal.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/threadsI/Sincronizacao/Principal.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Sincronizacao/TarefaNumero1.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/threadsI/Sincronizacao/TarefaNumero1.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Sincronizacao/TarefaNumero2.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/threadsI/Sincronizacao/TarefaNumero2.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/buscaTextual/Principal.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/threadsI/buscaTextual/Principal.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/buscaTextual/TarefaBuscaTextual.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/threadsI/buscaTextual/TarefaBuscaTextual.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/calculadora/AcaoBotao.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/threadsI/calculadora/AcaoBotao.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/calculadora/TarefaMultiplicacao.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/threadsI/calculadora/TarefaMultiplicacao.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/calculadora/TelaCalculador.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/threadsI/calculadora/TelaCalculador.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/colecoesThreadSafe/Lista.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/threadsI/colecoesThreadSafe/Lista.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/colecoesThreadSafe/Principal.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/threadsI/colecoesThreadSafe/Principal.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/colecoesThreadSafe/TarefaAdicionarElemento.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/threadsI/colecoesThreadSafe/TarefaAdicionarElemento.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/colecoesThreadSafe/TarefaImprimir.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/threadsI/colecoesThreadSafe/TarefaImprimir.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/deadlock/GerenciadorDeTransacao.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/threadsI/deadlock/GerenciadorDeTransacao.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/deadlock/PoolDeConexao.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/threadsI/deadlock/PoolDeConexao.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/deadlock/PrincipalBanco.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/threadsI/deadlock/PrincipalBanco.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/deadlock/TarefaAcessoBanco.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/threadsI/deadlock/TarefaAcessoBanco.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/deadlock/TarefaAcessoBancoProcedimento.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/threadsI/deadlock/TarefaAcessoBancoProcedimento.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/espereNotifique/Banheiro.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/threadsI/espereNotifique/Banheiro.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/espereNotifique/Principal.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/threadsI/espereNotifique/Principal.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/espereNotifique/TarefaLimpeza.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/threadsI/espereNotifique/TarefaLimpeza.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/espereNotifique/TarefaNumero1.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/threadsI/espereNotifique/TarefaNumero1.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/espereNotifique/TarefaNumero2.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/threadsI/espereNotifique/TarefaNumero2.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/exercicio/ImprimirNumeros.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/threadsI/exercicio/ImprimirNumeros.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/exercicio/ImprimirString.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/threadsI/exercicio/ImprimirString.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -87,6 +63,7 @@
   </component>
   <component name="RecentsManager">
     <key name="CreateClassDialog.RecentsKey">
+      <recent name="threadsII.servidor" />
       <recent name="deadlock" />
       <recent name="colecoesThreadSafe" />
       <recent name="buscaTextual" />
@@ -190,6 +167,9 @@
       <workItem from="1694813749576" duration="6012000" />
       <workItem from="1694983608522" duration="5914000" />
       <workItem from="1695039122347" duration="46000" />
+      <workItem from="1695085826673" duration="2117000" />
+      <workItem from="1695168429937" duration="6691000" />
+      <workItem from="1695416097191" duration="3634000" />
     </task>
     <servers />
   </component>
