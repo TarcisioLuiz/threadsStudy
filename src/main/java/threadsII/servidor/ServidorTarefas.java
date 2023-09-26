@@ -1,34 +1,37 @@
 package threadsII.servidor;
 
 import java.io.IOException;
-import java.lang.reflect.Executable;
 import java.net.ServerSocket;
 import java.net.Socket;
 import java.net.SocketException;
 import java.util.concurrent.ExecutorService;
 import java.util.concurrent.Executors;
+import java.util.concurrent.ThreadFactory;
+import java.util.concurrent.atomic.AtomicBoolean;
 
 public class ServidorTarefas {
 
     private ServerSocket servidor;
     private ExecutorService threadPool;
-    private boolean estaRodando;
+    private AtomicBoolean estaRodando;
+    // private volatile boolean estaRodando;
 
     public ServidorTarefas() throws IOException {
         System.out.println("--- Iniciando servidor ---");
+        ThreadFactory defaultFactory = Executors.defaultThreadFactory();
         this.servidor = new ServerSocket(12345);
-        this.threadPool = Executors.newCachedThreadPool();
-        this.estaRodando = true;
+        this.threadPool = Executors.newFixedThreadPool(4, new FabricaDeThreads(defaultFactory));  // newCachedThreadPool();
+        this.estaRodando = new AtomicBoolean(true);
 
         //ExecutorService threadPool = Executors.newFixedThreadPool(2);
     }
 
     public void rodar() throws IOException {
-        while(this.estaRodando) {
+        while(this.estaRodando.get()) {
             try {
                 Socket socket = servidor.accept();
                 System.out.println("Aceitando novo cliente na porta: " + socket.getPort());
-                DistribuirTarefas distribuirTarefas = new DistribuirTarefas(socket, this);
+                DistribuirTarefas distribuirTarefas = new DistribuirTarefas(threadPool, socket, this);
                 threadPool.execute(distribuirTarefas);
             } catch (SocketException e) {
                 System.out.println("SocketEception, Está rodando? " + this.estaRodando);
@@ -37,9 +40,10 @@ public class ServidorTarefas {
     }
 
     public void parar() throws IOException {
-        estaRodando = false;
-        servidor.close();
+        System.out.println("Parando servidor");
+        this.estaRodando.set(false);
         threadPool.shutdown();
+        servidor.close();
     }
 
     public static void main(String[] args) throws Exception{

@@ -5,10 +5,14 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="7feb674f-5fb2-4497-8413-28221ed4d67c" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/threadsII/cliente/ClienteTarefas.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/threadsII/servidor/DistribuirTarefas.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/threadsII/servidor/ServidorTarefas.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/threadsII/ServidorDeTeste.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/threadsII/servidor/ComandoC1.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/threadsII/servidor/ComandoC2.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/threadsII/servidor/FabricaDeThreads.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/threadsII/servidor/TratadorDeExcecao.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/threadsII/servidor/DistribuirTarefas.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/threadsII/servidor/DistribuirTarefas.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/threadsII/servidor/ServidorTarefas.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/threadsII/servidor/ServidorTarefas.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -64,6 +68,7 @@
   <component name="RecentsManager">
     <key name="CreateClassDialog.RecentsKey">
       <recent name="threadsII.servidor" />
+      <recent name="threadsII" />
       <recent name="deadlock" />
       <recent name="colecoesThreadSafe" />
       <recent name="buscaTextual" />
@@ -77,9 +82,12 @@
       <recent name="C:\Personal Workspace\CalculadorV1\src\main\resources" />
       <recent name="C:\Personal Workspace\CalculadorV1\src" />
     </key>
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="threadsII.servidor" />
+    </key>
   </component>
-  <component name="RunManager" selected="Application.ClienteTarefas">
-    <configuration name="ClienteTarefas" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="Application.ServidorTarefas">
+    <configuration name="ClienteTarefas" type="Application" factoryName="Application" singleton="false" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="threadsII.cliente.ClienteTarefas" />
       <module name="ThreadsStudy" />
       <extension name="coverage">
@@ -105,12 +113,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Principal (3)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="espereNotifique.Principal" />
+    <configuration name="PrincipalBanco" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="deadlock.PrincipalBanco" />
       <module name="ThreadsStudy" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="espereNotifique.*" />
+          <option name="PATTERN" value="deadlock.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -118,12 +126,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="PrincipalBanco" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="deadlock.PrincipalBanco" />
+    <configuration name="ServidorDeTeste" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="threadsII.ServidorDeTeste" />
       <module name="ThreadsStudy" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="deadlock.*" />
+          <option name="PATTERN" value="threadsII.servidor.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -144,13 +152,20 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <list>
+      <item itemvalue="Application.ClienteTarefas" />
+      <item itemvalue="Application.Principal (2)" />
+      <item itemvalue="Application.PrincipalBanco" />
+      <item itemvalue="Application.ServidorDeTeste" />
+      <item itemvalue="Application.ServidorTarefas" />
+    </list>
     <recent_temporary>
       <list>
         <item itemvalue="Application.ClienteTarefas" />
         <item itemvalue="Application.ServidorTarefas" />
+        <item itemvalue="Application.ServidorDeTeste" />
         <item itemvalue="Application.PrincipalBanco" />
         <item itemvalue="Application.Principal (2)" />
-        <item itemvalue="Application.Principal (3)" />
       </list>
     </recent_temporary>
   </component>
@@ -169,7 +184,9 @@
       <workItem from="1695039122347" duration="46000" />
       <workItem from="1695085826673" duration="2117000" />
       <workItem from="1695168429937" duration="6691000" />
-      <workItem from="1695416097191" duration="3634000" />
+      <workItem from="1695416097191" duration="4751000" />
+      <workItem from="1695693887987" duration="4371000" />
+      <workItem from="1695754748064" duration="4872000" />
     </task>
     <servers />
   </component>
